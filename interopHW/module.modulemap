@@ -1,0 +1,15 @@
+//
+//  module.modulemap
+//  interopHW
+//
+//  Created by badyi on 11.07.2021.
+//
+
+module ObjcLib1 {
+    umbrella header "../ObjcLib1/UmbrellaHeader.h"
+    export *
+    
+    explicit module ObjcLib2 {
+        header "../ObjcLib2/UmbrellaHeader.h"
+    }
+}

@@ -1,0 +1,11 @@
+//
+//  module.modulemap
+//  interopHW
+//
+//  Created by badyi on 11.07.2021.
+//
+
+module ObjcLib3 {
+    umbrella header "../ObjcLib3/UmbrellaHeader.h"
+    export *
+}
